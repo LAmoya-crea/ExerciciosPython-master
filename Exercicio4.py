@@ -14,13 +14,13 @@ class Pessoa:
         if self.idade < 21:
             self.altura += 0.5
 
-Rafaella = Pessoa(nome = 'Rafaella', idade = 10, peso = 70.0, altura = 1.78)
-print(f'Nome: {Rafaella.nome}, Idade: {Rafaella.idade}, Peso: {Rafaella.peso}, Altura: {Rafaella.altura}')
-while Rafaella.idade < 80:
-    Rafaella.envelhecer()
-    Rafaella.engordar()
-    Rafaella.emagrecer()
-    Rafaella.crescer()
-    print(f'Nome: {Rafaella.nome}, Idade: {Rafaella.idade}, Peso: {Rafaella.peso}, Altura: {round(Rafaella.altura,2)}')
+Lucas = Pessoa(nome = 'Lucas', idade = 10, peso = 70.0, altura = 1.78)
+print(f'Nome: {Lucas.nome}, Idade: {Lucas.idade}, Peso: {Lucas.peso}, Altura: {Lucas.altura}')
+while Lucas.idade < 80:
+    Lucas.envelhecer()
+    Lucas.engordar()
+   Lucas.emagrecer()
+    Lucas.crescer()
+    print(f'Nome: {Lucas.nome}, Idade: {Lucas.idade}, Peso: {Lucas.peso}, Altura: {round(Lucas.altura,2)}')
 
 
